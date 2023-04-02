@@ -27,7 +27,7 @@ y = data['IncidentOccurred']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,shuffle=null)
 
 #importing the model 
-model = xgb.XGBClassifier(  max_depth=3,learning_rate=0.1,n_estimators=100,)
+model = xgb.XGBClassifier(  max_depth=6,learning_rate=0.1,n_estimators=100,)
 modeldt = DecisionTreeClassifier()
 
 #Train the model
